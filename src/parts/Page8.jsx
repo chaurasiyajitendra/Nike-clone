@@ -18,8 +18,7 @@ const Page8 = () => {
             opacity:0,
             duration:2,
             scrollTrigger:{
-                trigger:"#you",
-                markers:true,
+                trigger:"#you", 
                 scroller:'body',
                 start:'top 10%',
                 end:'top 50%',
