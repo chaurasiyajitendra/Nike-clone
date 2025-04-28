@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@font-face{
+  font-family: 'one';
+  src: url('./font/download.woff') format('woff');
+}
+@font-face{
+  font-family: 'two';
+  src: url('./font/HelveticaNowDisplayMedium.woff2') format('woff');
+}
+@font-face{
+  font-family: 'three';
+  src: url('./font/HelveticaNowText.woff2') format('woff');
+}
+@font-face {
+  font-family: 'four';  
+  src: url('./font/HelveticaNowTextMedium.woff2') format('woff');
+}
+@font-face {
+  font-family: 'five';  
+  src: url('./font/Nike-Futura-ot-300.woff2') format('woff');
+}
+@font-face {
+  font-family: 'six';  
+  src: url('./font/Nike-Futura.woff2') format('woff');
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: "one";
+}
+#page1{
+  object-fit: cover;
+  background-position: center;
+  background-image: url(https://images.unsplash.com/photo-1648977526715-0d99e6b21036?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
